@@ -24,4 +24,3 @@ end
 25.50 do |n|
   p fizzbuzz(n)
 end
-p fizzbuzz(6)
