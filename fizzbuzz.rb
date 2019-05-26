@@ -21,4 +21,4 @@ def fizzbuzz(n)
   end
 end
 
-
+fizzbuzz(14)
