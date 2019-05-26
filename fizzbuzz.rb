@@ -21,6 +21,6 @@ def fizzbuzz(n)
   end
 end
 
-25.50 do |n|
+(25.50) do |n|
   p fizzbuzz(n)
 end
