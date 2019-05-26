@@ -20,5 +20,5 @@ def fizzbuzz(n)
 end
 
 (25..50).each do |n|
-  p n, fizzbuzz(n)
+  p(n, fizzbuzz(n))
 end
