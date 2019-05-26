@@ -3,16 +3,13 @@
 
 def fizzbuzz(n)
   arr = ''
-  
-  if ((n % 3 == 0) && (n % 5 == 0))
-    arr << 'FizzBuzz'
-  elsif (n % 3 == 0)
-    arr << 'Fizz'
-  elsif (n % 5 == 0)
-    arr << 'Buzz'
-  else
-    arr << n
+
+  if (n % 3 == 0)
+    arr += 'Fizz'
   end
+
+  if (n % 5 == 0)
+    arr += 'Buzz'
 
   if !arr then
     nil
