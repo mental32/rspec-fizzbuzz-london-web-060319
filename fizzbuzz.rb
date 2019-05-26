@@ -4,6 +4,10 @@
 def fizzbuzz(n)
   arr = ''
 
+  if (!(n % 3 == 0) && !(n % 5 == 0))
+    return nil
+  end
+
   if (n % 3 == 0)
     arr += 'Fizz'
   end
@@ -12,11 +16,7 @@ def fizzbuzz(n)
     arr += 'Buzz'
   end
 
-  if !arr then
-    nil
-  else
-    arr
-  end
+  arr
 end
 
 (25..50).each do |n|
