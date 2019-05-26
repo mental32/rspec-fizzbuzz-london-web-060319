@@ -10,6 +10,7 @@ def fizzbuzz(n)
 
   if (n % 5 == 0)
     arr += 'Buzz'
+  end
 
   if !arr then
     nil
