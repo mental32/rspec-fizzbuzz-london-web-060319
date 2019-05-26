@@ -21,4 +21,4 @@ def fizzbuzz(n)
   end
 end
 
-p fizzbuzz(14)
+p fizzbuzz(5)
