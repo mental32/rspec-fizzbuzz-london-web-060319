@@ -18,7 +18,3 @@ def fizzbuzz(n)
 
   arr
 end
-
-(25..50).each do |n|
-  p(n, fizzbuzz(n))
-end
