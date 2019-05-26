@@ -14,5 +14,9 @@ def fizzbuzz(n)
     arr << n
   end
 
-  arr
+  if !arr then
+    nil
+  else
+    arr
+  end
 end
