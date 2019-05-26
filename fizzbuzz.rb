@@ -16,5 +16,3 @@ def fizzbuzz(n)
 
   arr
 end
-
-p fizzbuzz 5
